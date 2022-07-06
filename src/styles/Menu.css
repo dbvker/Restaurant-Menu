@@ -1,0 +1,37 @@
+.menu-category-container {
+  border-bottom: 1px solid #d6d3e1;
+  padding: 10px 0;
+}
+
+.menu-category-container:last-child {
+  border-bottom: 0px;
+}
+
+.menu-category-title {
+  background-color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  position: sticky;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #ffb703;
+  top: 124px;  
+}
+
+/* Food items */
+.menu-food-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-food-container-half {
+  padding: 10px;
+  width: 50%;
+}
+
+.menu-food-container-full {
+  padding: 10px;
+  width: 100%;
+}
