@@ -8,9 +8,8 @@ function App() {
         <div>
             <Header />
             <div className='app'>
-                <div className='container'>
-                    <Menu />
-                </div>
+                <div className='course-title-bg'></div>
+                <Menu />
             </div>
         </div>
     );

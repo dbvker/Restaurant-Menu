@@ -8,4 +8,14 @@
   justify-content: center;
   margin-top: 124px;
   padding: 0px 0;
+  background-color: #ffffff;
+}
+
+.course-title-bg {
+  height: 57px;
+  width: 100%;
+  top: 124px;
+  z-index: 999;
+  position: fixed;
+  /* border-bottom: 1px solid #d6d3e1; */
 }
