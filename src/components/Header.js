@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/Header.css';
 
 import info from '../data/restaurantInfo.js';
-import Burger from '../assets/burger.jpg';
+import Burger from '../assets/single_patty.jpg';
 
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import StarRateIcon from '@mui/icons-material/StarRate';

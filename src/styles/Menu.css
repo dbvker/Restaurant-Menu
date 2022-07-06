@@ -12,7 +12,7 @@
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 10px;
-  padding: 0 10px;
+  padding: 0px 10px 5px;
   position: sticky;
   text-decoration: underline;
   text-decoration-thickness: 3px;
@@ -26,12 +26,61 @@
   flex-wrap: wrap;
 }
 
+.menu-food-container {
+  border: 1px solid #d6d3e1;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin: 10px 1% 15px 0;
+  cursor: default;
+  display: flex;
+}
+
+.menu-food-container:hover {
+  border: 1px solid #bebcc4;
+}
+
 .menu-food-container-half {
-  padding: 10px;
-  width: 50%;
+  width: 49%;
 }
 
 .menu-food-container-full {
-  padding: 10px;
   width: 100%;
+}
+
+.menu-food-img {
+  border-radius: 5px;
+  height: 100px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.menu-food-container img {
+  object-fit: cover;
+}
+
+.menu-food-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.menu-food-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu-food-price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-food-container {
+    padding: 15px;
+  }
+
+  .menu-food-container-half {
+    width: 100%;
+  }
 }

@@ -47,17 +47,13 @@ header {
   margin-top: 6px;
 }
 
-.header-content-bottom span {
-  margin: 0 10px;
-}
-
 .address {
   display: flex;
   margin-bottom: 3px;
 }
 
 .address .icon {
-  color: #6c6c6c;
+  color: #ffb703;
   font-size: 16px;
   margin-right: 8px;
 }
@@ -67,7 +63,7 @@ header {
 }
 
 .info .icon {
-  color: #6c6c6c;
+  color: #ffb703;
   font-size: 16px;
   margin-left: 20px;
   margin-right: 8px;
@@ -86,7 +82,7 @@ header {
 
 .header-content-right button {
   align-items: center;
-  background-color: rgb(238,238,238);
+  background-color: #ffb703;
   border-radius: 10px;
   border: none;
   box-sizing: border-box;
@@ -105,7 +101,7 @@ header {
 }
 
 .header-content-right button:hover {
-  background: rgb(211, 211, 211);
+  background: #E0A100;
   color: #000000;
   transition: 280ms;
 }
@@ -113,4 +109,10 @@ header {
 .header-content-right button .icon {
   font-size: 16px;
   margin-right: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+  .header-content-right {
+    display: none;
+  }
 }

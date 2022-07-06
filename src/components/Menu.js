@@ -2,13 +2,12 @@ import React from 'react';
 
 import '../styles/Menu.css';
 
-import menu from '../data/restaurantMenu.js';
 
 import MenuCourses from './MenuCourses';
 
 const Menu = () => {
   return (
-    <div>
+    <div style={{marginBottom: '100px'}}>
       <MenuCourses />
     </div>
   )
