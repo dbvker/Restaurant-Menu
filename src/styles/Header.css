@@ -53,7 +53,7 @@ header {
 }
 
 .address .icon {
-  color: #ffb703;
+  color: #4338CA;
   font-size: 16px;
   margin-right: 8px;
 }
@@ -63,7 +63,7 @@ header {
 }
 
 .info .icon {
-  color: #ffb703;
+  color: #4338CA;
   font-size: 16px;
   margin-left: 20px;
   margin-right: 8px;
@@ -82,11 +82,11 @@ header {
 
 .header-content-right button {
   align-items: center;
-  background-color: #ffb703;
+  background-color: #4338CA;
   border-radius: 10px;
   border: none;
   box-sizing: border-box;
-  color: #000000;
+  color: #FFFFFF;
   cursor: pointer;
   display: flex;
   font-size: 15px;
